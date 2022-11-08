@@ -7,7 +7,7 @@ export default {
             <book-filter @filtered="filter"></book-filter>
             <book-list :books="booksToShow" ></book-list>
       
-             <router-link to="/book/edit">Add a book...</router-link>
+             <router-link to="/book-add">Add a book...</router-link>
             `,
   data() {
     return {
